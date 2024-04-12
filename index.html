@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap"
       rel="stylesheet"
     />
+
     <title>Media Inshoat</title>
   </head>
   <body>
@@ -65,13 +66,18 @@
             </div>
           </li>
         </ul>
-        <button class="button button--previous">
+        <button
+          class="button button--previous"
+          onclick="handleClick('previous')"
+        >
           <img src="images/icon-arrow-prev.png" alt="prev" />
         </button>
-        <button class="button button--next">
+        <button class="button button--next" onclick="handleClick('next')">
           <img src="images/icon-arrow-next.png" alt="next" />
         </button>
       </div>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
