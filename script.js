@@ -16,7 +16,7 @@ function handleClick(direction) {
   } else {
     list.scrollBy({ left: itemWidth, behavior: "smooth" });
     currentPosition++;
-    if (currentPosition > 4) {
+    if (currentPosition > maxItems) {
       currentPosition = 1;
       list.scrollTo({ left: 0, behavior: "smooth" });
     }
