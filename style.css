@@ -191,6 +191,59 @@ section.work-order {
   height: 10px;
 }
 
+/*  CONTACTS PAGE */
+.contact-text-img {
+  height: 450px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-text {
+  width: 60vw;
+  padding: 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-text-img img {
+  object-fit: cover;
+  width: 35vw;
+  height: auto;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.contact-phone,
+.contact-message {
+  width: 400px;
+  height: 180px;
+  background-color: white;
+  border: solid 1px;
+  border-color: rgb(205, 210, 210);
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-phone img,
+.contact-message img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 470px) {
   header {
     flex-direction: column;
