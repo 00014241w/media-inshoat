@@ -5,6 +5,15 @@
   font-size: 15px;
 }
 
+body {
+  width: 100%;
+}
+
+::selection {
+  background-color: orange;
+  color: white;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -244,6 +253,29 @@ section.work-order {
   margin-right: auto;
 }
 
+.contact-message h4,
+.contact-phone h4 {
+  margin-bottom: 15px;
+}
+
+.contact-message button {
+  background-color: orange;
+  border: none;
+  width: 100px;
+  height: 28px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-message button:hover {
+  background-color: rgb(227, 147, 0);
+}
+.contact-message button:active {
+  background-color: rgb(227, 147, 0);
+  transform: translateY(1px);
+}
+
 @media screen and (max-width: 470px) {
   header {
     flex-direction: column;
@@ -296,5 +328,14 @@ section.work-order {
   .step p {
     line-height: 20px;
     height: 20px;
+  }
+
+  /* CONTACTS PAGE */
+  .contact-methods {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    height: 100px;
+    align-items: flex-end;
   }
 }
