@@ -256,24 +256,28 @@ section.work-order {
 .contact-message h4,
 .contact-phone h4 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
-.contact-message button {
-  background-color: orange;
-  border: none;
-  width: 100px;
-  height: 28px;
+.contact-message a {
   color: white;
-  border-radius: 5px;
-  cursor: pointer;
+  background-color: orange;
+  width: 120px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 7px;
+  text-decoration: none;
 }
 
-.contact-message button:hover {
+.contact-message a:hover {
   background-color: rgb(227, 147, 0);
 }
-.contact-message button:active {
-  background-color: rgb(227, 147, 0);
-  transform: translateY(1px);
+
+.contact-phone a {
+  color: black;
+  height: 38px;
+  line-height: 38px;
 }
 
 @media screen and (max-width: 470px) {
@@ -306,15 +310,6 @@ section.work-order {
     align-items: center;
   }
 
-  .content-text h2 {
-    font-size: 15px;
-  }
-
-  .content-text p {
-    font-size: 15px;
-    padding: 10px 25%;
-  }
-
   .order {
     width: 90vw;
   }
@@ -337,5 +332,31 @@ section.work-order {
     gap: 40px;
     height: 100px;
     align-items: flex-end;
+  }
+
+  .contact-text-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-text-img img {
+    display: none;
+    width: 100vw;
+  }
+
+  .contact-text {
+    width: 100%;
+    height: auto;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contact-methods {
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
   }
 }
