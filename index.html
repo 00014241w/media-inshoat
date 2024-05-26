@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +26,232 @@
           src="images/media-inshoat-logo.png"
           alt="media-inshoat-logo"
       /></a>
-      <ul class="navigation">
+      <ul class="navigation-panel">
+        <li class="nav--item">
+          <a href="">Услуги</a>
+        </li>
+        <li class="nav--item">
+          <a href="">Проекты</a>
+        </li>
+        <li class="nav--item">
+          <a href="">О компании</a>
+        </li>
+        <li class="nav--item">
+          <a href="pages/contact.html" id="contacts">Контакты</a>
+        </li>
+      </ul>
+    </header>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/betonniy-pol.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Промышленные бетонные полы</h5>
+            <p>Надежность и долговечность для вашего бизнеса</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/topping.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Промышленные топпинг полы</h5>
+            <p>Прочное и эстетичное решение для промышленных помещений</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/epoxidniy-pol.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Промышленние эпоксидные полы</h5>
+            <p>Высокая стойкость к химическим воздействиям и износу</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/polymerniy-pol.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Промышленние полимерные полы</h5>
+            <p>Современные покрытия для максимальной защиты и комфорта</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/polyuretanoviy-pol.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Полиуретановые наливные полы</h5>
+            <p>Эластичность и устойчивость к ударным нагрузкам</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="container mt-n3 mt-sm-n2 mt-md-0 my-lg-3 my-xl-4 my-xxl-5">
+      <h2 class="display-5 text-center mb-5">Преимущества работы с нами</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-4 gy-sm-5 pb-md-4 pb-lg-5 mb-2 mb-lg-0 mb-xxl-2">
+
+        <div class="col text-center text-sm-start pt-2 pt-sm-0">
+          <div class="pe-md-3 pe-lg-3 pe-xl-5">
+            <img class="d-inline-block mb-3 mb-lg-4" src="images/icons8-quality-50.png" width="56" alt="Quality">
+            <h3 class="h5 mb-2">Качество и надежность</h3>
+            <p class="mb-0">Мы используем только высококачественные материалы и современные технологии, чтобы гарантировать долговечность наших полов.</p>
+          </div>
+        </div>
+        <div class="col text-center text-sm-start pt-2 pt-sm-0">
+          <div class="ps-md-3 px-lg-2 px-xl-4">
+            <img class="d-inline-block mb-3 mb-lg-4" src="images/icons8-workers-54.png" width="56" alt="Sass">
+            <h3 class="h5 mb-2">Профессиональная команда</h3>
+            <p class="mb-0">Наши специалисты имеют многолетний опыт в укладке промышленных полов и проходят регулярное обучение.</p>
+          </div>
+        </div>
+        <div class="col text-center text-sm-start pt-2 pt-sm-0">
+          <div class="pe-md-3 ps-lg-3 ps-xl-5">
+            <img class="d-inline-block mb-3 mb-lg-4" src="images/icons8-communication-56.png" width="56" alt="Npm">
+            <h3 class="h5 mb-2">Индивидуальный подход</h3>
+            <p class="mb-0">Мы учитываем все особенности вашего объекта и подбираем оптимальное решение, соответствующее вашим требованиям.</p>
+          </div>
+        </div>
+        <div class="col text-center text-sm-start pt-2 pt-sm-0">
+          <div class="pe-md-3 pe-lg-3 pe-xl-5">
+            <img class="d-inline-block mb-3 mb-lg-4" src="images/icons8-deadline-50.png" width="56" alt="JavaScript">
+            <h3 class="h5 mb-2">Соблюдение сроков</h3>
+            <p class="mb-0">Мы ценим ваше время и всегда выполняем работы точно в оговоренные сроки.</p>
+          </div>
+        </div>
+        <div class="col text-center text-sm-start pt-2 pt-sm-0">
+          <div class="ps-md-3 px-lg-2 px-xl-4">
+            <img class="d-inline-block mb-3 mb-lg-4" src="images/icons8-warranty-50.png" width="56" alt="HTML5">
+            <h3 class="h5 mb-2">Гарантия на работы</h3>
+            <p class="mb-0">Предоставляем гарантию на все виды покрытий, что подтверждает наше высокое качество и надежность.</p>
+          </div>
+        </div>
+        <div class="col text-center text-sm-start pt-2 pt-sm-0">
+          <div class="ps-md-3 px-lg-2 px-xl-4">
+            <img class="d-inline-block mb-3 mb-lg-4" src="images/icons8-services-54.png" width="56" alt="Google Fonts">
+            <h3 class="h5 mb-2">Комплексные услуги</h3>
+            <p class="mb-0">Мы предлагаем полный спектр услуг от подготовки основания до финальной отделки, что позволяет избежать лишних затрат и неудобств.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects d-flex flex-column py-4">
+      <h2 class="display-5 text-center mb-5">Наши проэкты</h2>
+      <div class="project-container">
+        <div class="project">
+          <img src="images/hyatt-regency.jpg" alt="Hyatt Regency">
+          <div>
+            <p>Устройство бетонных полов в гостиннице Hyatt Regency</p>
+            <span><img src="images/icons8-location-20.png" alt="">Tashkent</span>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/media-park.jpg" alt="Media Park Katartal">
+          <div>
+            <p>Армобетонные работы при строительстве торгового центра Media Park</p>
+            <span><img src="images/icons8-location-20.png" alt="">Tashkent</span>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/akfa-copy.jpg" alt="Akfa">
+          <div>
+            <p>Бетонные полы в производственном цехе AKFA</p>
+            <span><img src="images/icons8-location-20.png" alt="">Tashkent</span>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/osborn-textile.jpg" alt="Osborn Textile">
+          <div>
+            <p>Устройство бетонных полов в строительстве склада готовой продукции Osborn Textile</p>
+            <span><img src="images/icons8-location-20.png" alt="">Gazalkent</span>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/man.jpg" alt="Man Automotive Factory">
+          <div>
+            <p>Устройство бетонных дорожек в сервисном центре большегрузных автотранспортных средств МАN</p>
+            <span><img src="images/icons8-location-20.png" alt="">Samarkand</span>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/orient-finance-bank.jpg" alt="Orient Finance Bank">
+          <div>
+            <p>Бетонно-монолитные работы в здании банка Orient Finance Bank</p>
+            <span><img src="images/icons8-location-20.png" alt="">Tashkent</span>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/greenwich.jpg" alt="Greenwich Houses">
+          <div>
+            <p>Бетонные полы автостоянки в жилом комплексе Greenwich</p>
+            <span><img src="images/icons8-location-20.png" alt="">Tashkent</span>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/samo-textile.jpg" alt="Samo Textile">
+            <div>
+            <p>Бетонные работы в текстильной фабрике Samo Textile</p>
+            <span><img src="images/icons8-location-20.png" alt="">Andijan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects d-flex flex-column py-4">
+      <h2 class="display-5 text-center mb-5">Часто задаваемые вопросы (FAQ)</h2>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="footer-list">
         <li class="nav-item">
           <a href="">Услуги</a>
         </li>
@@ -39,122 +265,18 @@
           <a href="pages/contact.html">Контакты</a>
         </li>
       </ul>
-    </header>
-
-    <section>
-      <h1 class="section-header">Наши Услуги</h1>
-      <div class="carousel">
-        <ul class="carousel-list">
-          <li class="item">
-            <div class="item-content">
-              <img src="images/betonniy-pol.jpg" alt="бетонные пол" />
-              <div class="content-text">
-                <h2>Промышленные бетонные полы</h2>
-                <p>
-                  основа основ для любого полового покрытия. Бетонные полы
-                  включают основания (монолиты) и бетонные стяжки
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="item-content">
-              <img
-                src="images/betonniy-pol-with-topping.jpg"
-                alt="топпинг полы"
-              />
-              <div class="content-text">
-                <h2>Промышленные топпинг полы</h2>
-                <p>
-                  разновидность бетонных промышленных полов, поверхность которых
-                  с целью повышения эксплуатационных характеристик была
-                  обработана специальными сухими смесями.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="item-content">
-              <img src="images/epoxidniy-pol.jpg" alt="эпоксидные полы" />
-              <div class="content-text">
-                <h2>Промышленние эпоксидные полы</h2>
-                <p>
-                  лидер в сегменте промышленных полимерных полов благодаря своей
-                  долговечности и способности выдерживать максимальные
-                  механические нагрузки
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="item-content">
-              <img src="images/polymerniy-pol.png" alt="полимерные пол" />
-              <div class="content-text">
-                <h2>Промышленние полимерные полы</h2>
-                <p>
-                  в значительной степени улучшают эксплуатационные
-                  характеристики такие как: износостойкость, ударопрочность,
-                  беспыльность
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="item-content">
-              <img
-                src="images/polyuretanoviy-pol.png"
-                alt="Полиуретановые наливные полы"
-              />
-              <div class="content-text">
-                <h2>Полиуретановые наливные полы</h2>
-                <p>
-                  используются для придания прочности бетонных оснований,
-                  насыщение функциональными и дизайнерскими качествами
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <button
-          class="button button--previous"
-          onclick="handleClick('previous')"
-        >
-          <img src="images/icon-arrow-prev.png" alt="prev" />
-        </button>
-        <button class="button button--next" onclick="handleClick('next')">
-          <img src="images/icon-arrow-next.png" alt="next" />
-        </button>
-      </div>
-    </section>
-
-    <section class="work-order">
-      <h1 class="section-header price">Порядок выполнения работ</h1>
-      <div class="order">
-        <div class="step">
-          <div class="number">1</div>
-          <h3>Консультация</h3>
-        </div>
-        <div class="step">
-          <div class="number">2</div>
-          <h3>Планирование</h3>
-        </div>
-        <div class="step">
-          <div class="number">3</div>
-          <div class="third">
-            <h3>Разработка ППР</h3>
-            <p>(план производства работ)</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="number">4</div>
-          <h3>Технологический процесс</h3>
-        </div>
-        <div class="step">
-          <div class="number">5</div>
-          <h3>Эксплуатация и сдача</h3>
-        </div>
-      </div>
-    </section>
+      <ul>
+        <li>
+          <a href=""><img src="images/icons8-telegram-36.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/icons8-phone-36.png" alt="" /></a>
+        </li>
+      </ul>
+      <div></div>
+      <p>© "Media Inshoat" 2024 Все права защищены.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
